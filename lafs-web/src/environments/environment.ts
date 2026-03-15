@@ -3,8 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  api_url: 'https://q-a-example-loopback-api.herokuapp.com'
+production: false,
+api_url: 'http://54.224.181.234:3000'
 };
 
 /*

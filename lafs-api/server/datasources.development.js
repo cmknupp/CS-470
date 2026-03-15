@@ -1,3 +1,5 @@
+/* Create by Connie Knupp for SNHU CS-470 using assignment guide. */ 
+
 module.exports = {
  mongodb: {
    connector: 'mongodb',
