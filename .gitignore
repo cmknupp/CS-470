@@ -1,0 +1,44 @@
+# Ignore dependency directories
+node_modules/
+# Ignore environment files
+.env
+# Ignore log files
+*.log
+text
+# --- Security & Credentials (CRITICAL for AWS) ---
+.env
+.env.*
+*.pem
+.aws/
+auth-config.json
+
+# --- Dependency Folders ---
+node_modules/
+dist/
+build/
+.angular/
+.cache/
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# --- OS & IDE Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Database / Local Storage ---
+dump/
+data/
+*.sqlite
